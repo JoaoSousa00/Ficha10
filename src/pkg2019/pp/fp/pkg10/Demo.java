@@ -19,6 +19,13 @@ public class Demo {
         System.out.println(BP.getGasTotal(40.67));
         System.out.println(BP.getCoffeePrice());
         System.out.println(BP.getCoffeeTotal(10));
+        
+        System.out.println("-----------------------------------------");
+        
+        Supermarket Lidl = new Supermarket("Lidl",124,1.98);
+        Lidl.setPotatoesPrice(1.96);
+        System.out.println(Lidl.getPotatoesPrice());
+        System.out.println(Lidl.getPotatoesTotal(20));
     }
     
 }
