@@ -26,6 +26,19 @@ public class Demo {
         Lidl.setPotatoesPrice(1.96);
         System.out.println(Lidl.getPotatoesPrice());
         System.out.println(Lidl.getPotatoesTotal(20));
+        
+        System.out.println("-----------------------------------------");
+        
+        Hipermarket Cont = new Hipermarket ("Continente",125,1.98,0.60,2.45,1.435);
+        Cont.setCoffeePrice(0.70);
+        System.out.println(Cont.getGasPrice());
+        System.out.println(Cont.getGasTotal(32.25));
+        System.out.println(Cont.getCoffeePrice());
+        System.out.println(Cont.getCoffeeTotal(4));
+        System.out.println(Cont.getAnnualRate());
+        System.out.println(Cont.computeMonthlyPayment(10000,12));
+        System.out.println(Cont.getPotatoesPrice());
+        System.out.println(Cont.getPotatoesTotal(40));
     }
     
 }
