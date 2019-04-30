@@ -13,10 +13,12 @@ public class Demo {
 
     public static void main(String[] args) {
         
-        GasStation BP = new GasStation("BP",123,1.435);
-        BP.setGasPrice(1.436);
+        LargeGasStation BP = new LargeGasStation("BP",123,1.435,0.65);
+        BP.setGasPrice(1.437);
         System.out.println(BP.getGasPrice());
-        System.out.println(BP.getGasTotal(43.67));
+        System.out.println(BP.getGasTotal(40.67));
+        System.out.println(BP.getCoffeePrice());
+        System.out.println(BP.getCoffeeTotal(10));
     }
     
 }
